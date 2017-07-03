@@ -4,8 +4,8 @@
 // to get the authorisation URL.
 
 // Note that the redirectUri value should point towards a hosted version of 'redirect_handler.php'.
-
-require_once '../../../vendor/autoload.php';
+require 'composer_config_blank.php';
+require_once COMPOSER_LOCATION.'autoload.php';
 
 use rapidweb\googlecontacts\helpers\GoogleHelper;
 

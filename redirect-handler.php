@@ -10,7 +10,8 @@ if (!isset($_GET['code'])) {
 
 $code = $_GET['code'];
 
-require_once '../../../vendor/autoload.php';
+require 'composer_config_blank.php';
+require_once COMPOSER_LOCATION.'autoload.php';
 
 use rapidweb\googlecontacts\helpers\GoogleHelper;
 
